@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script:wght@700&family=Lobster&family=Luckiest+Guy&family=Noto+Sans+SC&family=Satisfy&family=Titan+One&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+    <title>Melhores Filmes da História - Sugestões</title>
+</head>
+
+
+<body>
+    
+    <header>
+       
+        <div class="tit-principal">
+            <img src="assets/camera.png" class="camera">
+            <h1 class="titulo">Melhores Filmes da História do Cinema</h1>
+            <img src="assets/camera.png" class="camera2">
+        </div>
+     </header>
+
+     <nav>
+        <ul>
+            <li class="item-menu"><a href="index.html">Home</li></a>
+            <li class="item-menu"><a href="nacionais.html">Nacionais</a></li>
+            <li class="item-menu"><a href="internacionais.html">Internacionais</a></li>
+            <li class="item-menu"><a href="sugestoes.html">Sugestões</a></li>
+        </ul>
+     </nav>
+
+    <div >
+        <h2 class="titulo-tabelas">Sugestões</h2><br>
+
+        <form>
+
+            <fieldset class="info-pessoal">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" class="input-padrao" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="nome@gmail.com">
+            </fieldset>
+
+
+            <fieldset class="info-filme">
+                <label for="filme">Nome do Filme:</label>
+                <input type="text" id="filme" class="input-padrao" required placeholder="Ex: Titanic">
+
+                
+
+                <label for="mensagem">Por que você deseja incluir este filme?</label>
+                <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+                <br><br>
+            <fieldset >
+                <legend>Qual a nacionalidade do filme?</legend>
+                <label for="radio-nac"><input type="radio" name="nacionalidade" value="nacional" id="radio-nac"> Nacional</label>
+                <label for="radio-int"><input type="radio" name="nacionalidade" value="internacional" id="radio-int"> Internacional</label>
+            </fieldset>
+            <br><br>
+                
+            <fieldset >
+                <legend>Qual critério você utilizou para recomendar este filme?</legend>
+                <select>
+                    <option>Bilheteria</option>
+                    <option>Premiação</option>
+                    <option>Gosto Popular</option>
+                </select>
+            </fieldset>
+            <br><br>
+           
+            </fieldset>
+            
+            <fieldset class="enviar">
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber uma cópia da sua solicitação por email?</label>
+
+                <input type="submit" value="Enviar Sugestão" class="btn-enviar">
+            </fieldset>
+
+           
+        </form>
+        
+    </div>
+
+    <footer>
+        <p class="obg">Obrigada pela visita! &#127910; </p>
+        
+
+    </footer>
+</body>
+
+</html>
