@@ -1,13 +1,12 @@
-# Projeto Top 10 Filmes
+# Project Top 10 Filmes
 
 
-## HTML e CSS básicos
+## Basic HTML and CSS 
 
-* Responsivo para dispositivos móveis
-* Tabelas
-* Formulário
-* Menu com âncora
-* Navegação entre páginas
+* Responsive to all screens
+* Tables
+* Forms
+
 
 
 ## Preview
